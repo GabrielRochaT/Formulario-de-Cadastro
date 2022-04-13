@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+ 
+<html>
+ <head>
+ <title> Empresa </title>
+ <meta name="description" content="Cadastro pessoas física">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ 
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<div class="barra">
+    <h5>Marwin</h5>
+      <h6>Cadastros</h6>
+</div>
+  
+
+ </head>
+
+
+
+ <body>
+
+
+  <div class="container1">
+    <div class="card">
+
+  <h1> Cadastro de Empresa</h1> 
+  <h2> Preencha o formulário abaixo para cadastrar sua empresa:</h2><br />
+
+<!--FORMULARIO-->
+
+<form action=" " id="formulario" method="POST" name="formulario">
+
+<!-- DADOS DA EMPRESA-->
+<fieldset>
+ <legend>Dados da Empresa</legend>
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="nome">Nome: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome"placeholder="Insira o nome" required>
+   </td>
+   
+  </tr>
+  <tr>
+   <td>
+    <label for="rzSoc">Razão Social: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="rzSoc"required>
+   </td>
+   
+  </tr>
+  
+  <tr>
+   <td>
+    <label>CNPJ:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="cnpj" size="11" maxlength="11" placeholder="00.000.000/0000-00" required> <h3> (somente números)</h3>
+
+      <td align="left">
+     <td align="left">
+     <td align="left">
+    
+    <td>
+    <label>Inscrição Estadual:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="insEst" size="11" maxlength="11"required> 
+   </td>
+    
+   </td>
+  </tr>
+ </table>
+</fieldset>
+
+<br />
+<!-- ENDEREÇO -->
+<fieldset>
+ <legend>Endereço</legend>
+ <table cellspacing="10">
+
+  <tr>
+   <td>
+    <label for="rua">Rua:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="rua"required>
+   </td>
+   <td>
+    <label for="numero">Número:</label>
+   </td>
+   <td align="left">
+    <input type="number" name="numero" size="4" required>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="bairro">Bairro: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="bairro"required>
+   </td>
+  </tr>
+
+   <tr>
+   <td>
+    <label for="Complemento">Complemento: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Complemento"required>
+   </td>
+   
+  </tr>
+  
+  <tr>
+   <td>
+    <label for="municipio">Municícpio: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="municipio"required>
+   </td>
+   <td>
+    <label for="estado">Estado:</label>
+   </td>
+   <td align="left">
+    <select name="estado" required> 
+       <option value="">Selecione o estado</option>
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   </td>
+  
+   
+  </tr>
+  <td>
+    <label for="cep">CEP: </label>
+   </td>
+   <td align="left">
+    <input type="number" name="cep" size="5" maxlength="5"required placeholder="00000-000"> <h3> (somente números)</h3>
+   </td>
+ </table>
+</fieldset>
+<br />
+
+
+
+<!-- AUTENTICAÇÃO -->
+<fieldset>
+ <legend>AUTENTICAÇÃO</legend>
+ <table cellspacing="10">
+  
+  
+  <tr>
+   <td>
+    <label for="nome-1">Nome 1: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome-1"required>
+   </td>
+
+   <td>
+    <label>Telefone:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="tel" size="11" maxlength="11"required> 
+    
+   </td>
+   
+  </tr>
+  
+  
+  <tr>
+   <td>
+    <label for="email-1">E-mail 1: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="email-1" required>
+   </td>
+
+   <td>
+    <label>Ramal:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="ramal" size="11" maxlength="11"required> 
+    
+   </td>
+  </tr>
+
+  
+<tr>
+   <td>
+    <label for="nome-2">Nome 2: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome-2"required>
+   </td>
+
+   <td>
+    <label>Telefone:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="tel" size="11" maxlength="11"required> 
+    
+   </td>
+   
+  </tr>
+  
+  
+  <tr>
+   <td>
+    <label for="email-2">E-mail 2: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="email-2"required>
+   </td>
+
+   <td>
+    <label>Ramal:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="ramal" size="11" maxlength="11"required> 
+    
+   </td>
+  </tr>
+
+
+ </table>
+</fieldset>
+<br />
+
+<button class="btn3 btn-envia"submit" id="enviar">
+    Enviar
+  </button>
+</form>
+
+</div>
+
+  </div>
+  </div>
+
+
+ </body>
+</html>
