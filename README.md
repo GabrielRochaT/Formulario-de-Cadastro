@@ -1,3 +1,4 @@
-# Formulario-de-Cadastro
+# Formulario de Cadastro
 Um formulário de cadastro para pessoa física e jurídica.
-<a href="#about" class="btn">Sobre Mim</a>
+
+<a href="https://gabrielrochat.github.io/Formulario-de-Cadastro/" class="btn">Acesse o Projeto</a>
